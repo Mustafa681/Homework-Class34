@@ -38,3 +38,5 @@ rollTheDices()
 
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
+
+// there's not return statement in the rejection rollDice
