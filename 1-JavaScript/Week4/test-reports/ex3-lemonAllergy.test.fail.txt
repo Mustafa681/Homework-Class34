@@ -1,0 +1,20 @@
+*** Unit Test Error Report ***
+
+  console.log
+    [
+      'apple',
+      'lemon',
+      'grapefruit',
+      'lemon',
+      'banana',
+      'watermelon',
+      'lemon'
+    ]
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:35:13)
+
+  console.log
+    apple, grapefruit, banana, watermelon!
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:13)
+
