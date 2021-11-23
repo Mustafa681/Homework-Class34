@@ -1,20 +1,21 @@
 //cspell: disable
-/*------------------------------------------------------------------------------
-Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Browsers/Week1#exercise-1-the-book-list
+/*
+  
+ ** Exercise 1: The book list **
 
-I'd like to display my three favorite books inside a nice webpage!
+  I'd like to display my three favorite books inside a nice webpage!
 
-1. Iterate through the array of books.
-2. For each book, create a `<p>`
-element with the book title and author.
-3. Use a `<ul>`  and `<li>` to display the books.
-4. Add an `<img>` to each book that links to a URL of the book cover.
-5. Change the style of the book depending on whether you have read it(green) or not(red).
+  1. Iterate through the array of books.
+  2. For each book, create a `<p>`
+  element with the book title and author.
+  3. Use a `<ul>`  and `<li>` to display the books.
+  4. Add an `<img>` to each book that links to a URL of the book cover.
+  5. Change the style of the book depending on whether you have read it(green) or not(red).
 
-The end result should look something like this:
-https: //hyf-js2-week1-makeme-ex1-demo.herokuapp.com/
+  The end result should look something like this:
+  https: //hyf-js2-week1-makeme-ex1-demo.herokuapp.com/
 
------------------------------------------------------------------------------*/
+*/
 //cspell: enable
 
 const myBooks = [
@@ -39,7 +40,44 @@ const myBooks = [
 ];
 
 function createBookList(books) {
-  // TODO your code goes in here, return the ul element
+  const ul = document.createElement('ul');
+  ul.setAttribute(
+    'style',
+    'list-style: none;  display: flex; flex-wrap:  wrap; padding: 30px; margin: 0 auto; justify-content: center;  width: calc(100% - 40px); '
+  );
+
+  books.forEach((element, i) => {
+    const li = document.createElement('li');
+    const p = document.createElement('p');
+    p.textContent = `${element.title} - ${element.author}`;
+    li.setAttribute(
+      'style',
+      'width: calc(25% - 51px); margin: 15px; padding: 10px; min-width: 300px'
+    );
+
+    if (element.alreadyRead === true) {
+      li.style.backgroundColor = 'green';
+    } else {
+      li.style.backgroundColor = 'red';
+    }
+
+    const img = document.createElement('img');
+    img.style.width = '60%';
+    if (i === 0) {
+      img.src = 'assets/the_design_of_everyday_things.jpg';
+      img.alt = 'Book-cover the_design_of_everyday_things';
+    } else if (i === 1) {
+      img.src = 'assets/the_most_human_human.jpg';
+      img.alt = 'Book-cover the_most_human_human.jpg';
+    } else img.src = 'assets/the_pragmatic_programmer.jpg';
+    img.alt = 'Book-cover the_pragmatic_programmer.jpg';
+
+    ul.appendChild(li);
+    li.appendChild(p);
+    li.appendChild(img);
+  });
+
+  return ul;
 }
 
 const ulElement = createBookList(myBooks);

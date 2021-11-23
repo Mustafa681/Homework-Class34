@@ -1,7 +1,5 @@
 'use strict';
 /*------------------------------------------------------------------------------
-Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Browsers/Week1#exercise-5-the-cat-walk
-
 1. Create a variable to store a reference to the `<img>` element.
 2. Change the style of the `<img>` to have a `left` of `0px`, so that it starts 
    at the left hand of the screen.
@@ -21,8 +19,29 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
+const img = document.querySelector('img');
+img.style.left = '0px';
+let int;
 function catWalk() {
   // TODO complete this function
+  img.style.left = parseFloat(img.style.left) + 10 + 'px';
+  // reset to left 0px
+  if (parseFloat(img.style.left) > window.innerWidth - img.width) {
+    img.style.left = '0px';
+    // clear the setInterval to stop at the center
+  } else if (parseFloat(img.style.left) === window.innerWidth / 2) {
+    clearInterval(int);
+    img.src =
+      'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+    // dance for 5 sec at the center
+    setTimeout(() => {
+      img.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      int = setInterval(catWalk, 50);
+    }, 5000);
+  }
 }
 
 // TODO execute `catWalk` when the browser has completed loading the page
+window.addEventListener('load', () => {
+  int = setInterval(catWalk, 50);
+});
