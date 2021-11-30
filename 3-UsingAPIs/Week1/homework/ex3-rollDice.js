@@ -50,5 +50,5 @@ rollDice((error, value) => {
 // ! Do not change or remove the code below
 module.exports = rollDice;
 
-//  using promise solved the problem practically. either resolved or  or rejected
-// only when the dice rolls off the table we'll get rejected.
+// So once a resolve or reject is called, the state of promise will be settled to be
+// resolved or rejected and the rest of the calls will be ignored.
