@@ -39,4 +39,7 @@ rollTheDices()
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
 
-// there's not return statement in the rejection rollDice
+ 
+// Here we did pass an array of promises to Promise.all() function. and all promises were executed asynchronously, with no dependency!
+// so in this case when we get a rejection, the dices that did not
+// finish their roll will continue to do so. cuz as I said before no dependency.
