@@ -1,0 +1,1424 @@
+2021-11-30 01:33:51 info: ---------------------------------------------
+2021-11-30 01:33:51 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 01:33:51 info: ---------------------------------------------
+2021-11-30 01:33:59 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        4.627 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 01:34:00 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  22:28  error  Parsing error: Unexpected token fetch
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-11-30 02:08:13 info: ---------------------------------------------
+2021-11-30 02:08:13 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:08:13 info: ---------------------------------------------
+2021-11-30 02:08:16 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.718 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:09:39 info: ---------------------------------------------
+2021-11-30 02:09:39 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:09:39 info: ---------------------------------------------
+2021-11-30 02:09:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.951 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:17:25 info: ---------------------------------------------
+2021-11-30 02:17:25 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:17:25 info: ---------------------------------------------
+2021-11-30 02:17:28 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.719 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:18:35 info: ---------------------------------------------
+2021-11-30 02:18:35 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:18:35 info: ---------------------------------------------
+2021-11-30 02:18:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.727 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:19:16 info: ---------------------------------------------
+2021-11-30 02:19:16 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:19:16 info: ---------------------------------------------
+2021-11-30 02:19:18 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.698 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:22:35 info: ---------------------------------------------
+2021-11-30 02:22:35 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:22:35 info: ---------------------------------------------
+2021-11-30 02:22:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.742 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:22:39 error: *** Spell Checker Report ***
+
+ex1-programmerFun/index.js:34:30 - Unknown word (xkcd)
+
+2021-11-30 02:22:57 info: ---------------------------------------------
+2021-11-30 02:22:57 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:22:57 info: ---------------------------------------------
+2021-11-30 02:22:59 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.811 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:33:44 info: ---------------------------------------------
+2021-11-30 02:33:44 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:33:44 info: ---------------------------------------------
+2021-11-30 02:33:47 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.734 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:35:21 info: ---------------------------------------------
+2021-11-30 02:35:21 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:35:21 info: ---------------------------------------------
+2021-11-30 02:35:24 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.754 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 02:35:24 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  32:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-11-30 02:36:50 info: ---------------------------------------------
+2021-11-30 02:36:50 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 02:36:50 info: ---------------------------------------------
+2021-11-30 02:36:53 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.824 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 03:23:04 info: ------------------------------------------
+2021-11-30 03:23:04 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 03:23:04 info: ------------------------------------------
+2021-11-30 03:23:07 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2.401 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 05:25:38 info: ------------------------------------------
+2021-11-30 05:25:38 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 05:25:38 info: ------------------------------------------
+2021-11-30 05:25:41 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.721 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 05:25:52 info: --------------------------------------------
+2021-11-30 05:25:52 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-11-30 05:25:52 info: --------------------------------------------
+2021-11-30 05:25:52 warn: A unit test file was not provided.
+2021-11-30 05:25:54 info: All steps were completed successfully
+2021-11-30 05:26:06 info: ----------------------------------------
+2021-11-30 05:26:06 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-11-30 05:26:06 info: ----------------------------------------
+2021-11-30 05:26:06 warn: A unit test file was not provided.
+2021-11-30 05:26:08 info: All steps were completed successfully
+2021-11-30 05:26:19 info: ----------------------------------------
+2021-11-30 05:26:19 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-11-30 05:26:19 info: ----------------------------------------
+2021-11-30 05:26:21 info: All unit tests passed.
+2021-11-30 05:26:22 info: All steps were completed successfully
+2021-11-30 05:26:36 info: ------------------------------------------
+2021-11-30 05:26:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 05:26:36 info: ------------------------------------------
+2021-11-30 05:26:38 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.84 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 05:26:50 info: ---------------------------------------------
+2021-11-30 05:26:50 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 05:26:50 info: ---------------------------------------------
+2021-11-30 05:26:53 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.857 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 05:39:08 info: --------------------------------------------
+2021-11-30 05:39:08 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-11-30 05:39:08 info: --------------------------------------------
+2021-11-30 05:39:08 warn: A unit test file was not provided.
+2021-11-30 05:39:10 info: All steps were completed successfully
+2021-11-30 05:46:17 info: --------------------------------------------
+2021-11-30 05:46:17 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-11-30 05:46:17 info: --------------------------------------------
+2021-11-30 05:46:17 warn: A unit test file was not provided.
+2021-11-30 05:46:19 info: All steps were completed successfully
+2021-11-30 05:49:59 info: -----------------------------------------
+2021-11-30 05:49:59 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:49:59 info: -----------------------------------------
+2021-11-30 05:50:03 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+Debugger attached.
+Debugger attached.
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (8 ms)
+    √ should not include a recursive call
+    √ should use async/wait (1 ms)
+    √ should use try/catch
+    × should resolve as soon as a dice settles on an ACE (8 ms)
+    √ should reject with an Error when a dice rolls off the table (2 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    Dice 1 rolled off the table.
+
+      75 |           offTable = true;
+      76 |         }
+    > 77 |         reject(new Error(`Dice ${dice} rolled off the table.\n`));
+         |                ^
+      78 |       }
+      79 |
+      80 |       // If the dices settles (i.e. all mandated rolls are completed) we
+
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:77:16)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at 3-UsingAPIs/helpers/pokerDiceRoller.js:95:5
+      at rollDice (3-UsingAPIs/helpers/pokerDiceRoller.js:43:10)
+      at rollDiceUntil (3-UsingAPIs/Week2/homework/ex3-rollAnAce.js:19:11)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:93:22)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should resolve as soon as a dice settles on an ACE', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |
+      67 |     expect(exported).toBeDefined();
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        1.693 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+
+2021-11-30 05:52:51 info: -----------------------------------------
+2021-11-30 05:52:51 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:52:51 info: -----------------------------------------
+2021-11-30 05:52:53 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+Debugger attached.
+Debugger attached.
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (6 ms)
+    √ should not include a recursive call
+    √ should use async/wait (1 ms)
+    √ should use try/catch
+    × should resolve as soon as a dice settles on an ACE (7 ms)
+    √ should reject with an Error when a dice rolls off the table (1 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    Dice 1 rolled off the table.
+
+      75 |           offTable = true;
+      76 |         }
+    > 77 |         reject(new Error(`Dice ${dice} rolled off the table.\n`));
+         |                ^
+      78 |       }
+      79 |
+      80 |       // If the dices settles (i.e. all mandated rolls are completed) we
+
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:77:16)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at 3-UsingAPIs/helpers/pokerDiceRoller.js:95:5
+      at rollDice (3-UsingAPIs/helpers/pokerDiceRoller.js:43:10)
+      at rollDiceUntil (3-UsingAPIs/Week2/homework/ex3-rollAnAce.js:19:11)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:93:22)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should resolve as soon as a dice settles on an ACE', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |
+      67 |     expect(exported).toBeDefined();
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        1.143 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+
+2021-11-30 05:54:20 info: -----------------------------------------
+2021-11-30 05:54:20 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:54:20 info: -----------------------------------------
+2021-11-30 05:54:24 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+Debugger attached.
+Debugger attached.
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (7 ms)
+    √ should not include a recursive call
+    √ should use async/wait (1 ms)
+    √ should use try/catch
+    × should resolve as soon as a dice settles on an ACE (7 ms)
+    √ should reject with an Error when a dice rolls off the table (1 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    Dice 1 rolled off the table.
+
+      75 |           offTable = true;
+      76 |         }
+    > 77 |         reject(new Error(`Dice ${dice} rolled off the table.\n`));
+         |                ^
+      78 |       }
+      79 |
+      80 |       // If the dices settles (i.e. all mandated rolls are completed) we
+
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:77:16)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at 3-UsingAPIs/helpers/pokerDiceRoller.js:95:5
+      at rollDice (3-UsingAPIs/helpers/pokerDiceRoller.js:43:10)
+      at rollDiceUntil (3-UsingAPIs/Week2/homework/ex3-rollAnAce.js:19:11)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:93:22)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should resolve as soon as a dice settles on an ACE', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |
+      67 |     expect(exported).toBeDefined();
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        1.51 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+
+2021-11-30 05:55:20 info: -----------------------------------------
+2021-11-30 05:55:20 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:55:20 info: -----------------------------------------
+2021-11-30 05:55:23 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+Debugger attached.
+Debugger attached.
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (7 ms)
+    √ should not include a recursive call
+    √ should use async/wait (1 ms)
+    √ should use try/catch
+    × should resolve as soon as a dice settles on an ACE (7 ms)
+    √ should reject with an Error when a dice rolls off the table (1 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    Dice 1 rolled off the table.
+
+      75 |           offTable = true;
+      76 |         }
+    > 77 |         reject(new Error(`Dice ${dice} rolled off the table.\n`));
+         |                ^
+      78 |       }
+      79 |
+      80 |       // If the dices settles (i.e. all mandated rolls are completed) we
+
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:77:16)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at 3-UsingAPIs/helpers/pokerDiceRoller.js:95:5
+      at rollDice (3-UsingAPIs/helpers/pokerDiceRoller.js:43:10)
+      at rollDiceUntil (3-UsingAPIs/Week2/homework/ex3-rollAnAce.js:19:11)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:93:22)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should resolve as soon as a dice settles on an ACE', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |
+      67 |     expect(exported).toBeDefined();
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        1.199 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+
+2021-11-30 05:57:54 info: -----------------------------------------
+2021-11-30 05:57:54 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:57:54 info: -----------------------------------------
+2021-11-30 05:57:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (10 ms)
+    √ should not include a recursive call (1 ms)
+    √ should use async/wait
+    √ should use try/catch (1 ms)
+    √ should resolve as soon as a dice settles on an ACE (2 ms)
+    √ should reject with an Error when a dice rolls off the table (2 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        1.07 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+
+2021-11-30 05:58:30 info: -----------------------------------------
+2021-11-30 05:58:30 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 05:58:30 info: -----------------------------------------
+2021-11-30 05:58:32 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (9 ms)
+    √ should not include a recursive call (1 ms)
+    √ should use async/wait
+    √ should use try/catch
+    √ should resolve as soon as a dice settles on an ACE (2 ms)
+    √ should reject with an Error when a dice rolls off the table (2 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        1.084 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+
+2021-11-30 06:00:10 info: -----------------------------------------
+2021-11-30 06:00:10 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:00:10 info: -----------------------------------------
+2021-11-30 06:00:12 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (10 ms)
+    √ should not include a recursive call (1 ms)
+    √ should use async/wait (1 ms)
+    √ should use try/catch
+    × should resolve as soon as a dice settles on an ACE (12 ms)
+    √ should reject with an Error when a dice rolls off the table (2 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    Dice 1 rolled off the table.
+
+      75 |           offTable = true;
+      76 |         }
+    > 77 |         reject(new Error(`Dice ${dice} rolled off the table.\n`));
+         |                ^
+      78 |       }
+      79 |
+      80 |       // If the dices settles (i.e. all mandated rolls are completed) we
+
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:77:16)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at cb (3-UsingAPIs/helpers/pokerDiceRoller.js:90:26)
+      at 3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:88:35
+      at rollOnce (3-UsingAPIs/helpers/pokerDiceRoller.js:90:9)
+      at 3-UsingAPIs/helpers/pokerDiceRoller.js:95:5
+      at rollDice (3-UsingAPIs/helpers/pokerDiceRoller.js:43:10)
+      at rollDiceUntil (3-UsingAPIs/Week2/homework/ex3-rollAnAce.js:18:11)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:93:22)
+
+  ● ex3-rollAnAce › should resolve as soon as a dice settles on an ACE
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received two assertion calls.
+
+      63 |
+      64 |   test('should resolve as soon as a dice settles on an ACE', async () => {
+    > 65 |     expect.assertions(3);
+         |            ^
+      66 |
+      67 |     expect(exported).toBeDefined();
+      68 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:65:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 4 passed, 6 total
+Snapshots:   0 total
+Time:        1.009 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+
+2021-11-30 06:00:39 info: -----------------------------------------
+2021-11-30 06:00:39 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:00:39 info: -----------------------------------------
+2021-11-30 06:00:41 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (6 ms)
+    √ should not include a recursive call (1 ms)
+    √ should use async/wait
+    √ should use try/catch
+    √ should resolve as soon as a dice settles on an ACE (2 ms)
+    √ should reject with an Error when a dice rolls off the table (1 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        0.943 s, estimated 1 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+
+2021-11-30 06:01:30 info: -----------------------------------------
+2021-11-30 06:01:30 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:01:30 info: -----------------------------------------
+2021-11-30 06:01:32 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollAnAce.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js
+  ex3-rollAnAce
+    × should have all TODO comments removed (9 ms)
+    √ should not include a recursive call (1 ms)
+    √ should use async/wait
+    √ should use try/catch (1 ms)
+    √ should resolve as soon as a dice settles on an ACE (1 ms)
+    √ should reject with an Error when a dice rolls off the table (2 ms)
+
+  ● ex3-rollAnAce › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+      113 |
+      114 | function checkTodos(source) {
+    > 115 |   expect(source.includes('TODO')).toBeFalsy();
+          |                                   ^
+      116 | }
+      117 |
+      118 | module.exports = {
+
+      at checkTodos (test-runner/unit-test-helpers.js:115:35)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex3-rollAnAce.test.js:49:55)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        0.99 s, estimated 1 s
+Ran all test suites matching /ex3-rollAnAce.test.js/i.
+
+2021-11-30 06:02:42 info: -----------------------------------------
+2021-11-30 06:02:42 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:02:42 info: -----------------------------------------
+2021-11-30 06:02:44 info: All unit tests passed.
+2021-11-30 06:02:46 info: All steps were completed successfully
+2021-11-30 06:03:48 info: -----------------------------------------
+2021-11-30 06:03:48 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:03:48 info: -----------------------------------------
+2021-11-30 06:03:49 info: All unit tests passed.
+2021-11-30 06:03:51 info: All steps were completed successfully
+2021-11-30 06:04:22 info: ----------------------------------------
+2021-11-30 06:04:22 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-11-30 06:04:22 info: ----------------------------------------
+2021-11-30 06:04:24 info: All unit tests passed.
+2021-11-30 06:04:26 info: All steps were completed successfully
+2021-11-30 06:04:42 info: ----------------------------------------
+2021-11-30 06:04:42 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-11-30 06:04:42 info: ----------------------------------------
+2021-11-30 06:04:42 warn: A unit test file was not provided.
+2021-11-30 06:04:43 info: All steps were completed successfully
+2021-11-30 06:05:08 info: ------------------------------------------
+2021-11-30 06:05:08 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:05:08 info: ------------------------------------------
+2021-11-30 06:05:10 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.914 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:14:02 info: ------------------------------------------
+2021-11-30 06:14:02 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:14:02 info: ------------------------------------------
+2021-11-30 06:14:04 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.71 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:27:57 info: ------------------------------------------
+2021-11-30 06:27:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:27:57 info: ------------------------------------------
+2021-11-30 06:27:59 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.712 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:30:38 info: ------------------------------------------
+2021-11-30 06:30:38 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:30:38 info: ------------------------------------------
+2021-11-30 06:30:41 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.733 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:31:19 info: ------------------------------------------
+2021-11-30 06:31:19 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:31:19 info: ------------------------------------------
+2021-11-30 06:31:21 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.84 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:33:21 info: ------------------------------------------
+2021-11-30 06:33:21 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-11-30 06:33:21 info: ------------------------------------------
+2021-11-30 06:33:24 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.985 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-11-30 06:35:08 info: ---------------------------------------------
+2021-11-30 06:35:08 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 06:35:08 info: ---------------------------------------------
+2021-11-30 06:35:11 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.978 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 06:35:27 info: ---------------------------------------------
+2021-11-30 06:35:27 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-11-30 06:35:27 info: ---------------------------------------------
+2021-11-30 06:35:30 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2.08 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-11-30 06:36:42 info: -----------------------------------------
+2021-11-30 06:36:42 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-11-30 06:36:42 info: -----------------------------------------
+2021-11-30 06:36:43 info: All unit tests passed.
+2021-11-30 06:36:45 info: All steps were completed successfully

@@ -1,0 +1,28 @@
+*** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'html-validate/dist/cli/formatter' from 'test-runner/jsdom-helpers.js'
+
+    Require stack:
+      test-runner/jsdom-helpers.js
+      3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+
+      2 | const jsdom = require('jsdom');
+      3 | const { HtmlValidate } = require('html-validate');
+    > 4 | const { getFormatter } = require('html-validate/dist/cli/formatter');
+        |                          ^
+      5 | const htmlValidateOptions = require('../.htmlvalidate.json');
+      6 | const stylish = getFormatter('stylish');
+      7 |
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (test-runner/jsdom-helpers.js:4:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2.08 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.

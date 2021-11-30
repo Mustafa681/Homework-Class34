@@ -22,18 +22,72 @@ Use async/await and try/catch to handle promises.
 Try and avoid using global variables. As much as possible, try and use function 
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchData(url) {
+  try {
+    const response = await fetch(url);
+    const jsonResponse = await response.json();
+    return jsonResponse.results;
+  } catch (error) {
+    console.log(error.message);
+  }
 }
 
-function fetchAndPopulatePokemons(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchAndPopulatePokemons(promise) {
+  document.body.style.display = 'flex';
+  document.body.style.alignItems = 'center';
+  document.body.style.flexDirection = 'column';
+
+  const pokemonList = document.createElement('select');
+  pokemonList.style.fontSize = '1.5rem';
+
+  const options = document.createElement('option');
+  options.textContent = 'Select Pokemon';
+  pokemonList.prepend(options);
+  document.body.appendChild(pokemonList);
+
+  const getPokemon = document.createElement('button');
+  getPokemon.textContent = 'Get Pokemon';
+  getPokemon.style.margin = '2rem 0';
+  getPokemon.style.fontSize = '1.5rem';
+  document.body.prepend(getPokemon);
+  getPokemon.addEventListener('click', () => {
+    const pokemons = promise;
+    pokemons.forEach(async (pokemon) => {
+      const optionEl = document.createElement('option');
+      optionEl.textContent = pokemon.name;
+
+      const img = await fetchImage(pokemon);
+      optionEl.value = img.id;
+      pokemonList.appendChild(optionEl);
+    });
+  });
+  const pokemonImg = document.createElement('img');
+  pokemonImg.style.width = '200px';
+  pokemonImg.src = '';
+  document.body.appendChild(pokemonImg);
+  pokemonList.addEventListener('change', (e) => {
+    pokemonImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${e.target.value}.png`;
+  });
+  return promise;
 }
 
-function fetchImage(/* TODO parameter(s) go here */) {
+async function fetchImage(obj) {
   // TODO complete this function
+  const url = obj.url;
+  const imgObj = await fetch(url);
+  const imgSRC = await imgObj.json();
+  return imgSRC;
 }
 
-function main() {
+async function main() {
   // TODO complete this function
+  try {
+    const promise = await fetchData(
+      `https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151`
+    );
+    await fetchAndPopulatePokemons(promise);
+  } catch (error) {
+    console.log(error.message);
+  }
 }
+main();
